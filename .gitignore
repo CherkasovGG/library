@@ -1,0 +1,13 @@
+venv/
+
+API_for_library/.env
+*.ini
+*.log
+
+certification/
+app/certifications/jwt-private.key
+app/certifications/jwt-public.key
+
+.vscode/
+.idea/
+
