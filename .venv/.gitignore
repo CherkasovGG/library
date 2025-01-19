@@ -1,0 +1,13 @@
+venv/
+
+.env
+*.ini
+*.log
+
+certification/
+certifications/jwt-private.key
+certifications/jwt-public.key
+
+.vscode/
+.idea/
+
