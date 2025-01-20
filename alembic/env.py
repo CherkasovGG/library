@@ -12,6 +12,7 @@ from API_for_library.db import Base
 from API_for_library.models.user import User
 from API_for_library.models.books import Books
 from API_for_library.models.authors import Authors
+from API_for_library.models.issue import Issue
 
 
 # this is the Alembic Config object, which provides

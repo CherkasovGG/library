@@ -4,13 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e071b54-f479-4f28-bd35-5425e30c64d8" name="Changes" comment="add auth and user base operations, admin and reader roles need rework">
+    <list default="true" id="2e071b54-f479-4f28-bd35-5425e30c64d8" name="Changes" comment="added final division into roles admins and readers + mini fix other code. Need create handlers for issue and receive books">
+      <change afterPath="$PROJECT_DIR$/API_for_library/app/Issue/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_for_library/models/issue/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alembic/versions/3328d770b473_create_issued_books_table_one_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alembic/versions/64fa8514216b_added_new_table_and_time_add_for_others_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alembic/versions/c98c0dd56048_create_issued_books_table.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_for_library/app/auth/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_for_library/app/auth/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_for_library/app/auth/generate_password.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_for_library/app/auth/generate_password.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_for_library/api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_for_library/api/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API_for_library/app/author/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_for_library/app/author/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API_for_library/app/books/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_for_library/app/books/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_for_library/app/user/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_for_library/app/user/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_for_library/db/repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_for_library/db/repository.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_for_library/models/authors/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_for_library/models/authors/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_for_library/models/books/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_for_library/models/books/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_for_library/models/user/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_for_library/models/user/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alembic/env.py" beforeDir="false" afterPath="$PROJECT_DIR$/alembic/env.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737369025736</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added final division into roles admins and readers + mini fix other code. Need create handlers for issue and receive books">
+      <option name="closed" value="true" />
+      <created>1737405115523</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1737405115524</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,6 +143,7 @@
     <MESSAGE value="add alembic + init migrations, create all models" />
     <MESSAGE value="add crud for books and authors, mini fix tables and repository" />
     <MESSAGE value="add auth and user base operations, admin and reader roles need rework" />
-    <option name="LAST_COMMIT_MESSAGE" value="add auth and user base operations, admin and reader roles need rework" />
+    <MESSAGE value="added final division into roles admins and readers + mini fix other code. Need create handlers for issue and receive books" />
+    <option name="LAST_COMMIT_MESSAGE" value="added final division into roles admins and readers + mini fix other code. Need create handlers for issue and receive books" />
   </component>
 </project>
