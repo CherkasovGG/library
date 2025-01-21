@@ -4,14 +4,221 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e071b54-f479-4f28-bd35-5425e30c64d8" name="Changes" comment="create logs for main func. Need tests and descr of project">
-      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
+    <list default="true" id="2e071b54-f479-4f28-bd35-5425e30c64d8" name="Changes" comment="create logs for main func, create readme. Need tests">
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/_argcomplete.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/_code/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/_code/code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/_code/source.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/_io/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/_io/pprint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/_io/saferepr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/_io/terminalwriter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/_io/wcwidth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/_py/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/_py/error.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/_py/path.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/assertion/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/assertion/rewrite.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/assertion/truncate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/assertion/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/cacheprovider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/capture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/config/argparsing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/config/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/config/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/config/findpaths.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/debugging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/deprecated.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/doctest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/faulthandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/fixtures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/freeze_support.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/helpconfig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/hookspec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/junitxml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/legacypath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/logging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/mark/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/mark/expression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/mark/structures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/monkeypatch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/nodes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/outcomes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/pastebin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/pathlib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/pytester.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/pytester_assertions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/python.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/python_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/python_path.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/recwarn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/reports.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/runner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/scope.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/setuponly.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/setupplan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/skipping.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/stash.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/stepwise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/terminal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/threadexception.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/timing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/tmpdir.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/unraisableexception.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/warning_types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/warnings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/certifi-2024.12.14.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/certifi-2024.12.14.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/certifi-2024.12.14.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/certifi-2024.12.14.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/certifi-2024.12.14.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/certifi-2024.12.14.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/certifi/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/certifi/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/certifi/cacert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/certifi/core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/certifi/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpcore-1.0.7.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpcore-1.0.7.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpcore-1.0.7.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpcore-1.0.7.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpcore-1.0.7.dist-info/licenses/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpcore/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpcore/_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpcore/_async/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpcore/_async/connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpcore/_async/connection_pool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpcore/_async/http11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpcore/_async/http2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpcore/_async/http_proxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpcore/_async/interfaces.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpcore/_async/socks_proxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpcore/_backends/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpcore/_backends/anyio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpcore/_backends/auto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpcore/_backends/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpcore/_backends/mock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpcore/_backends/sync.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpcore/_backends/trio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpcore/_exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpcore/_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpcore/_ssl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpcore/_sync/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpcore/_sync/connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpcore/_sync/connection_pool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpcore/_sync/http11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpcore/_sync/http2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpcore/_sync/http_proxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpcore/_sync/interfaces.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpcore/_sync/socks_proxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpcore/_synchronization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpcore/_trace.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpcore/_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpcore/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpx-0.28.1.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpx-0.28.1.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpx-0.28.1.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpx-0.28.1.dist-info/REQUESTED" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpx-0.28.1.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpx-0.28.1.dist-info/entry_points.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpx-0.28.1.dist-info/licenses/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpx/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpx/__version__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpx/_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpx/_auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpx/_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpx/_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpx/_content.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpx/_decoders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpx/_exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpx/_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpx/_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpx/_multipart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpx/_status_codes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpx/_transports/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpx/_transports/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpx/_transports/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpx/_transports/default.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpx/_transports/mock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpx/_transports/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpx/_types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpx/_urlparse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpx/_urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpx/_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/httpx/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/iniconfig-2.0.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/iniconfig-2.0.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/iniconfig-2.0.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/iniconfig-2.0.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/iniconfig-2.0.0.dist-info/licenses/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/iniconfig/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/iniconfig/_parse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/iniconfig/_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/iniconfig/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/iniconfig/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/packaging-24.2.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/packaging-24.2.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/packaging-24.2.dist-info/LICENSE.APACHE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/packaging-24.2.dist-info/LICENSE.BSD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/packaging-24.2.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/packaging-24.2.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/packaging-24.2.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/packaging/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/packaging/_elffile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/packaging/_manylinux.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/packaging/_musllinux.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/packaging/_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/packaging/_structures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/packaging/_tokenizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/packaging/licenses/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/packaging/licenses/_spdx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/packaging/markers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/packaging/metadata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/packaging/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/packaging/requirements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/packaging/specifiers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/packaging/tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/packaging/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/packaging/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pluggy-1.5.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pluggy-1.5.0.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pluggy-1.5.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pluggy-1.5.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pluggy-1.5.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pluggy-1.5.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pluggy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pluggy/_callers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pluggy/_hooks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pluggy/_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pluggy/_result.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pluggy/_tracing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pluggy/_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pluggy/_warnings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pluggy/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/py.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pytest-8.3.4.dist-info/AUTHORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pytest-8.3.4.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pytest-8.3.4.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pytest-8.3.4.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pytest-8.3.4.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pytest-8.3.4.dist-info/REQUESTED" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pytest-8.3.4.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pytest-8.3.4.dist-info/entry_points.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pytest-8.3.4.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pytest/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pytest/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pytest/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/httpx.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/py.test.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/pytest.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_for_library/app/Issue/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_for_library/app/Issue/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_for_library/app/author/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_for_library/app/author/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_for_library/app/books/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_for_library/app/books/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_for_library/app/user/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_for_library/app/user/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +233,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/API_for_library" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -49,7 +256,7 @@
     "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "future__job"
+    "git-widget-placeholder": "main"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -132,7 +339,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737473970206</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="create logs for main func, create readme. Need tests">
+      <option name="closed" value="true" />
+      <created>1737477406054</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1737477406054</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,6 +370,7 @@
     <MESSAGE value="added final division into roles admins and readers + mini fix other code. Need create handlers for issue and receive books" />
     <MESSAGE value="create handlers for issue and return book, models for new table and alembic migrations, main work is over. Need tests and add loggs for main func" />
     <MESSAGE value="create logs for main func. Need tests and descr of project" />
-    <option name="LAST_COMMIT_MESSAGE" value="create logs for main func. Need tests and descr of project" />
+    <MESSAGE value="create logs for main func, create readme. Need tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="create logs for main func, create readme. Need tests" />
   </component>
 </project>
