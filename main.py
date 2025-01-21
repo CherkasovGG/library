@@ -11,7 +11,6 @@ DB_URL: str = os.environ.get("DB_URL")
 JWT_SECRET_KEY: str = os.environ.get("JWT_SECRET_KEY")
 
 if __name__ == "__main__":
-
     uvicorn.run(
         app="API_for_library.api:api",
         host=API_HOST,
