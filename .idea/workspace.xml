@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e071b54-f479-4f28-bd35-5425e30c64d8" name="Changes" comment="create handlers for issue and return book, models for new table and alembic migrations, main work is over. Need tests and add loggs for main func">
-      <change afterPath="$PROJECT_DIR$/API_for_library/models/logs/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alembic/versions/19ce6bc698ab_added_table_with_logs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alembic/versions/662f109c7d9a_added_table_with_logs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alembic/versions/b1d7ba25a633_added_to_user_bd_counter_of_books.py" afterDir="false" />
+    <list default="true" id="2e071b54-f479-4f28-bd35-5425e30c64d8" name="Changes" comment="create logs for main func. Need tests and descr of project">
+      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API_for_library/app/Issue/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_for_library/app/Issue/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API_for_library/app/author/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_for_library/app/author/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API_for_library/app/books/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_for_library/app/books/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API_for_library/app/user/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_for_library/app/user/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alembic/env.py" beforeDir="false" afterPath="$PROJECT_DIR$/alembic/env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737415175319</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="create logs for main func. Need tests and descr of project">
+      <option name="closed" value="true" />
+      <created>1737473970206</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1737473970206</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,6 +154,7 @@
     <MESSAGE value="add auth and user base operations, admin and reader roles need rework" />
     <MESSAGE value="added final division into roles admins and readers + mini fix other code. Need create handlers for issue and receive books" />
     <MESSAGE value="create handlers for issue and return book, models for new table and alembic migrations, main work is over. Need tests and add loggs for main func" />
-    <option name="LAST_COMMIT_MESSAGE" value="create handlers for issue and return book, models for new table and alembic migrations, main work is over. Need tests and add loggs for main func" />
+    <MESSAGE value="create logs for main func. Need tests and descr of project" />
+    <option name="LAST_COMMIT_MESSAGE" value="create logs for main func. Need tests and descr of project" />
   </component>
 </project>
