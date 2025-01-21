@@ -4,20 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e071b54-f479-4f28-bd35-5425e30c64d8" name="Changes" comment="added final division into roles admins and readers + mini fix other code. Need create handlers for issue and receive books">
-      <change afterPath="$PROJECT_DIR$/API_for_library/app/Issue/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API_for_library/models/issue/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alembic/versions/3328d770b473_create_issued_books_table_one_more.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alembic/versions/64fa8514216b_added_new_table_and_time_add_for_others_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alembic/versions/c98c0dd56048_create_issued_books_table.py" afterDir="false" />
+    <list default="true" id="2e071b54-f479-4f28-bd35-5425e30c64d8" name="Changes" comment="create handlers for issue and return book, models for new table and alembic migrations, main work is over. Need tests and add loggs for main func">
+      <change afterPath="$PROJECT_DIR$/API_for_library/models/logs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alembic/versions/19ce6bc698ab_added_table_with_logs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alembic/versions/662f109c7d9a_added_table_with_logs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alembic/versions/b1d7ba25a633_added_to_user_bd_counter_of_books.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_for_library/api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_for_library/api/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_for_library/app/Issue/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_for_library/app/Issue/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API_for_library/app/author/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_for_library/app/author/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API_for_library/app/books/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_for_library/app/books/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_for_library/db/repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_for_library/db/repository.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_for_library/models/authors/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_for_library/models/authors/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_for_library/models/books/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_for_library/models/books/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_for_library/models/user/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_for_library/models/user/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_for_library/app/user/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_for_library/app/user/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alembic/env.py" beforeDir="false" afterPath="$PROJECT_DIR$/alembic/env.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +29,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/API_for_library" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -56,7 +52,7 @@
     "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "future__job"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -123,7 +119,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737405115524</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="create handlers for issue and return book, models for new table and alembic migrations, main work is over. Need tests and add loggs for main func">
+      <option name="closed" value="true" />
+      <created>1737415175319</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1737415175319</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +148,7 @@
     <MESSAGE value="add crud for books and authors, mini fix tables and repository" />
     <MESSAGE value="add auth and user base operations, admin and reader roles need rework" />
     <MESSAGE value="added final division into roles admins and readers + mini fix other code. Need create handlers for issue and receive books" />
-    <option name="LAST_COMMIT_MESSAGE" value="added final division into roles admins and readers + mini fix other code. Need create handlers for issue and receive books" />
+    <MESSAGE value="create handlers for issue and return book, models for new table and alembic migrations, main work is over. Need tests and add loggs for main func" />
+    <option name="LAST_COMMIT_MESSAGE" value="create handlers for issue and return book, models for new table and alembic migrations, main work is over. Need tests and add loggs for main func" />
   </component>
 </project>
